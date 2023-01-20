@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [2.1.1](https://github.com/henrikvilhelmberglund/vscode-incrementor/compare/v2.1.0...v2.1.1) (2023-01-20)
+
+
+### Bug Fixes
+
+* :bug: adjust enum before number ([c30deb0](https://github.com/henrikvilhelmberglund/vscode-incrementor/commit/c30deb0995b049e0f57d6c0472a79e72232beeb5))
+
 ## [2.1.0](https://github.com/henrikvilhelmberglund/vscode-incrementor/compare/v2.0.0...v2.1.0) (2023-01-20)
 
 
