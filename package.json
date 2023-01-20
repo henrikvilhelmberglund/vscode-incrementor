@@ -4,11 +4,11 @@
     "description": "Advanced increment / decrement actions for numbers, enumerators, or just about anything else!",
     "icon": "images/icon_retina.png",
     "version": "1.0.3",
-    "publisher": "nmsmith89",
+    "publisher": "henrikvilhelmberglund",
     "author": {
-        "name": "Neil Smith",
-        "email": "nmsmith22389@gmail.com",
-        "url": "https://github.com/nmsmith22389"
+        "name": "Henrik Berglund",
+        "email": "henrikvilhelmberglund@gmail.com",
+        "url": "https://github.com/henrikvilhelmberglund"
     },
     "galleryBanner": {
         "color": "#01a9f4",
@@ -17,13 +17,13 @@
     "qna": false,
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/nmsmith22389/vscode-incrementor/issues",
-        "email": "nmsmith22389@gmail.com"
+        "url": "https://github.com/henrikvilhelmberglund/vscode-incrementor/issues",
+        "email": "henrikvilhelmberglund@gmail.com"
     },
-    "homepage": "https://github.com/nmsmith22389/vscode-incrementor",
+    "homepage": "https://github.com/henrikvilhelmberglund/vscode-incrementor",
     "repository": {
         "type": "git",
-        "url": "https://github.com/nmsmith22389/vscode-incrementor.git"
+        "url": "https://github.com/henrikvilhelmberglund/vscode-incrementor.git"
     },
     "categories": [
         "Other"
@@ -216,11 +216,12 @@
         "lint": "eslint src --ext ts",
         "old-pretest": "npm run compile && npm run lint",
         "pack": "vsce package",
+        "preprod": "export NODE_OPTIONS=--openssl-legacy-provider",
         "prod": "webpack --mode production",
         "pub": "vsce publish",
         "release-major": "standard-version --release-as=major",
         "release-minor": "standard-version --release-as=minor",
-        "release": "standard-version",
+        "release": "commit-and-tag-version",
         "release-auto": "ts-node ./scripts/release.ts",
         "test-compile": "npm run clean && tsc -p ./",
         "test": "node ./out/test/runTest.js",
@@ -241,6 +242,7 @@
         "@types/xregexp": "^4.3.0",
         "bignumber.js": "^9.0.0",
         "chai": "^4.2.0",
+        "commit-and-tag-version": "^11.0.0",
         "eslint": "^7.7.0",
         "glob": "^7.1.6",
         "lodash-es": "^4.17.15",
@@ -254,6 +256,5 @@
         "webpack": "^4.44.1",
         "webpack-cli": "^3.3.12",
         "xregexp": "^4.3.0"
-    },
-    "dependencies": {}
+    }
 }
