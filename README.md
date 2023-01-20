@@ -1,4 +1,6 @@
 This is a fork of the incrementor extension. Original readme below.
+<!-- export NODE_OPTIONS=--openssl-legacy-provider -->
+<!-- to avoid error running prod -->
 
 <!-- TODO: Redo all of the demo GIFs -->
 
