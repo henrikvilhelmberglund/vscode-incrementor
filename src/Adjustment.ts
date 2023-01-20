@@ -164,10 +164,10 @@ export default class Adjustment {
             const wordRange = new WordRange(this, selection);
             let result: string | undefined = wordRange.value;
 
-            if (wordRange.type == RangeType.Number) {
-                result = this.adjustNumber(wordRange);
-            } else if (wordRange.type == RangeType.Enum) {
+            if (wordRange.type == RangeType.Enum) {
                 result = this.adjustEnum(wordRange);
+            } else if (wordRange.type == RangeType.Number) {
+                result = this.adjustNumber(wordRange);
             }
 
             if (result !== undefined && result !== wordRange.value && !wordRange.range.isEmpty) {
