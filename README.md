@@ -1,3 +1,5 @@
+This is a fork of the incrementor extension. Original readme below.
+
 <!-- TODO: Redo all of the demo GIFs -->
 
 <p align="center">
