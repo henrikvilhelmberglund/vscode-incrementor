@@ -3,7 +3,7 @@
     "displayName": "Incrementor",
     "description": "Advanced increment / decrement actions for numbers, enumerators, or just about anything else!",
     "icon": "images/icon_retina.png",
-    "version": "2.1.1",
+    "version": "2.1.2",
     "publisher": "henrikvilhelmberglund",
     "author": {
         "name": "Henrik Berglund",
@@ -221,6 +221,7 @@
         "release-major": "standard-version --release-as=major",
         "release-minor": "standard-version --release-as=minor",
         "release": "commit-and-tag-version",
+        "postrelease": "git push --follow-tags origin master",
         "release-auto": "ts-node ./scripts/release.ts",
         "test-compile": "npm run clean && tsc -p ./",
         "test": "node ./out/test/runTest.js",

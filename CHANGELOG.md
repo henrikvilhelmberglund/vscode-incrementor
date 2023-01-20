@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [2.1.2](https://github.com/henrikvilhelmberglund/vscode-incrementor/compare/v2.1.1...v2.1.2) (2023-01-20)
+
+
+### Bug Fixes
+
+* :fire: remove dot from wordrange bounds ([762f713](https://github.com/henrikvilhelmberglund/vscode-incrementor/commit/762f7137cfcf2c691823044cff6bf284b67ddf8d))
+
 ## [2.1.1](https://github.com/henrikvilhelmberglund/vscode-incrementor/compare/v2.1.0...v2.1.1) (2023-01-20)
 
 
