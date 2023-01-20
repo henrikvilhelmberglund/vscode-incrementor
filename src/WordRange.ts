@@ -8,7 +8,7 @@ export enum RangeType {
 }
 
 export default class WordRange {
-    public readonly bounds = /[-\w#%.]+/;
+    public readonly bounds = /[-\w#%]+/;
 
     private get editor(): Code.TextEditor {
         return this.adjustment.editor;
