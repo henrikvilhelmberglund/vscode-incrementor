@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [2.1.0](https://github.com/henrikvilhelmberglund/vscode-incrementor/compare/v2.0.0...v2.1.0) (2023-01-20)
+
+
+### Features
+
+* :sparkles: add workaround in README.md ([df58bd6](https://github.com/henrikvilhelmberglund/vscode-incrementor/commit/df58bd63a86e8aea4fda35f38be221de05457579))
+
+
+### Bug Fixes
+
+* :fire: remove preprod, didn't work there, but run that command before prod ([dbbe2e7](https://github.com/henrikvilhelmberglund/vscode-incrementor/commit/dbbe2e7891d91e19d74d6d17cdc55aaf46ad2bce))
+
 ## 2.0.0 (2023-01-20)
 
 
