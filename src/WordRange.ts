@@ -57,7 +57,7 @@ export default class WordRange {
                 $`,
                 'x'
             ),
-            enum: XRegExp.cache('^[a-zA-Z](?:-?\\w+)*$'),
+            enum: XRegExp.cache('^[a-zA-Z](?:[-/]?\\w+)*$'),
         };
     }
 
