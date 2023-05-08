@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [2.4.0](https://github.com/henrikvilhelmberglund/vscode-incrementor/compare/v2.3.0...v2.4.0) (2023-05-08)
+
+
+### Features
+
+* :page_facing_up: add license (keeps complaining when publishing) ([bc39bc9](https://github.com/henrikvilhelmberglund/vscode-incrementor/commit/bc39bc9ffeb6f2e0b7ecb49afefbf46b435d2c6d))
+
+
+### Bug Fixes
+
+* :bug: update regex pattern in the package.json for vscode to stop complaining when using forward slashes ([221dedf](https://github.com/henrikvilhelmberglund/vscode-incrementor/commit/221dedf4fc0ad60b0384677d3750195335ba57f9))
+
 ## [2.3.0](https://github.com/henrikvilhelmberglund/vscode-incrementor/compare/v2.2.0...v2.3.0) (2023-05-08)
 
 
