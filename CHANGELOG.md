@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [2.2.0](https://github.com/henrikvilhelmberglund/vscode-incrementor/compare/v2.1.2...v2.2.0) (2023-05-08)
+
+
+### Features
+
+* :sparkles: add / regex matching ([374514b](https://github.com/henrikvilhelmberglund/vscode-incrementor/commit/374514be14328bb46ddc5ffc11ad40eb60dd1b9d))
+
+
+### Bug Fixes
+
+* :bug: fix node 18 jank ([c51f32b](https://github.com/henrikvilhelmberglund/vscode-incrementor/commit/c51f32bf3ef077dffda429f0a5210e4bb54644cd))
+
 ## [2.1.2](https://github.com/henrikvilhelmberglund/vscode-incrementor/compare/v2.1.1...v2.1.2) (2023-01-20)
 
 
