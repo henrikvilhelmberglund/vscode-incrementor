@@ -216,7 +216,7 @@
         "lint": "eslint src --ext ts",
         "old-pretest": "npm run compile && npm run lint",
         "pack": "vsce package",
-        "prod": "webpack --mode production",
+        "prod": "set NODE_OPTIONS=--openssl-legacy-provider && webpack --mode production",
         "pub": "vsce publish",
         "release-major": "standard-version --release-as=major",
         "release-minor": "standard-version --release-as=minor",
