@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [2.4.1](https://github.com/henrikvilhelmberglund/vscode-incrementor/compare/v2.4.0...v2.4.1) (2023-05-09)
+
+
+### Bug Fixes
+
+* :bug: revert package.json pattern for now ([06644a5](https://github.com/henrikvilhelmberglund/vscode-incrementor/commit/06644a5ccd0db647a77d9048373659863e4e132c))
+
 ## [2.4.0](https://github.com/henrikvilhelmberglund/vscode-incrementor/compare/v2.3.0...v2.4.0) (2023-05-08)
 
 
